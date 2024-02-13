@@ -1,7 +1,6 @@
 {
   "name": "r6.a.05-tp-secu1",
   "version": "1.0.0",
-  "description": "",
   "main": "src/server.js",
   "type": "module",
   "scripts": {
@@ -15,5 +14,7 @@
     "@fastify/basic-auth": "^5.1.1",
     "@fastify/jwt": "^8.0.0",
     "fastify": "^4.25.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
