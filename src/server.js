@@ -35,6 +35,15 @@ fastify.after(() => {
             }
         }
     })
+    fastify.route({
+        method: 'GET',
+        url: '/autre',
+        handler: async (req, reply) => {
+            return {
+                replique: 'Bravo !'
+            }
+        }
+    })
 })
 
 fastify.setErrorHandler(function (err, req, reply) {
